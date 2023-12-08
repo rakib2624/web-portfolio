@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+p {
+    text-align: justify;
+}
+.orange-highlight {
+    color: red;
+}
+.top-banner {
+    height: 600px;
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.intro {
+    float: left;
+    width: 40%;
+    margin-left: 3%;
+    padding-left: 3%;
+}
+.intro img{
+    width: 100%;
+}
+.link-button {
+    text-decoration: none;
+    padding: 5px 15px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, tomato, red);
+}
+.middle-banner {
+    height: 500px;
+    overflow: hidden;
+}
+.middle-intro img {
+    width: 100%;
+}
+.experiences-area {
+    height: 600px;
+    overflow: hidden;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.last-exp {
+    box-shadow: 10px 10px 10px 10px grey;
+    border-radius: 5px;
+    height: 60%;
+    border-left: 5px solid ;
+}
+#last-exp-left {
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg,tomato, red);
+    border-image-slice: 1;
+}
+#last-exp-right {
+    border-left: 5ps solid;
+    border-image: linear-gradient(180deg,green, lime);
+    border-image-slice: 1;
+}
+.ftr {
+    text-align: center;
+}
+.ftr p {
+    color: red;
+    display: inline-block;
+}
